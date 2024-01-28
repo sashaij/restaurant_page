@@ -52,10 +52,12 @@ function fillContent () {
     contentContainer.appendChild(pageDescription);
     contentContainer.appendChild(workingHours);
     contentContainer.appendChild(addressInfo);
+
+    homeButton.addEventListener('click', removeContent);
 }
 
 export default fillContent;
-
+import removeContent from "./remove-content";
 //nav
 /*
             <button id="home" class="nav-button">Home</button>
