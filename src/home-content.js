@@ -10,6 +10,7 @@ function fillContent () {
     const mainEl = document.createElement('div');
     const contentContainer = document.createElement('div');
     const pageHeader = document.createElement('div');
+    const restImg = document.createElement('img');
     const pageDescription = document.createElement('div');
     const workingHours = document.createElement('div');
     const addressInfo = document.createElement('div');
@@ -25,6 +26,7 @@ function fillContent () {
     mainEl.setAttribute('class', 'main');
     contentContainer.setAttribute('class', 'cont-container');
     pageHeader.setAttribute('id', 'page-header');
+    restImg.setAttribute('id', 'rest-img');
     pageDescription.setAttribute('class', 'info-field');
     pageDescription.setAttribute('id', 'description');
     workingHours.setAttribute('class', 'info-field');
@@ -49,6 +51,7 @@ function fillContent () {
     contentEl.appendChild(mainEl);
     mainEl.appendChild(contentContainer);
     contentContainer.appendChild(pageHeader);
+    contentContainer.appendChild(restImg);
     contentContainer.appendChild(pageDescription);
     contentContainer.appendChild(workingHours);
     contentContainer.appendChild(addressInfo);
