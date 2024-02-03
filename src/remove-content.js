@@ -1,5 +1,5 @@
 function removeContent () {
-    const contentContainer = document.querySelector('.cont-container');
+    const contentContainer = document.querySelector('.main');
     console.log(contentContainer.closest('div'));
     contentContainer.closest('div').remove();
 }
