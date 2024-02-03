@@ -32,8 +32,8 @@ function fillContent () {
     workingHours.innerHTML = 'Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text';
     addressInfo.innerHTML = 'Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text';
 
-    contentEl.appendChild(headerEl);
     contentEl.appendChild(mainEl);
+    mainEl.appendChild(headerEl);
     mainEl.appendChild(contentContainer);
     contentContainer.appendChild(pageHeader);
     contentContainer.appendChild(restImg);
@@ -42,6 +42,38 @@ function fillContent () {
     contentContainer.appendChild(addressInfo);
 
 }
+
+/* function fillContent () {
+    const contentContainer = document.getElementById('content');
+
+    const menuContent = document.createElement('div');
+    menuContent.setAttribute('id', 'menu-content');
+    
+    menuContent.innerHTML = `
+    <div class="main">
+    <div class="header">The best restaurant</div>
+        <div class="cont-container">
+            <div id="page-header">Our Menu</div>
+            <img id='rest-img'>
+            <div class="info-field" id="description">
+                <img id="menu-one-img" alt="">
+               Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text
+            </div>
+            <div class="info-field" id="working-hours">
+                <img id="menu-two-img" alt="">
+             Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text
+            </div>
+            <div class="info-field" id="address">
+                <img id="menu-three-img" alt="">
+             Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text
+            </div>
+        </div>
+    `
+    contentContainer.appendChild(menuContent);
+    const contContainer = document.querySelector('.cont-container');
+}
+*/
+
 
 export default fillContent;
 //nav

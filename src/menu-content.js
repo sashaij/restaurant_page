@@ -1,13 +1,12 @@
 function fillMenuContent () {
     const contentContainer = document.getElementById('content');
-    const menuButton = document.getElementById('menu');
 
     const menuContent = document.createElement('div');
     menuContent.setAttribute('id', 'menu-content');
     
     menuContent.innerHTML = `
-    <div class="header">The best restaurant</div>
     <div class="main">
+    <div class="header">The best restaurant</div>
         <div class="cont-container">
             <div id="page-header">Our Menu</div>
             <div class="info-field" id="description">
@@ -41,6 +40,5 @@ function fillMenuContent () {
     /* menuButton.addEventListener('click', removeContent); */
 }
 
-import removeContent from "./remove-content";
 export default fillMenuContent
 
