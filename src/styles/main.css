@@ -109,3 +109,19 @@ button:active {
     height: auto;
     border-radius: 10px;
 }
+
+#menu-plates {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.menu-img {
+    width: 20%;
+    height: auto;
+}
+
+#about-one-img {
+    width: 40%;
+    height: auto;
+}
