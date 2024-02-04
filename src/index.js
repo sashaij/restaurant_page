@@ -14,17 +14,17 @@ import restaurant from './assets/restaurant.jpg'
 
 console.log(fillContent());
 
-const restaurantImg = document.getElementById('rest-img');
 function restImgSrc() {
+    const restaurantImg = document.getElementById('rest-img');
     restaurantImg.src = restaurant;
 }
 
 //find out why image won't load after switching tabs
 restImgSrc();
 
-homeButton.addEventListener('click', restImgSrc);
 homeButton.addEventListener('click', removeContent);
 homeButton.addEventListener('click', fillContent);
+homeButton.addEventListener('click', restImgSrc);
 menuButton.addEventListener('click', removeContent);
 menuButton.addEventListener('click', fillMenuContent);
 aboutButton.addEventListener('click', removeContent);
