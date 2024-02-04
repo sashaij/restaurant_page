@@ -10,7 +10,16 @@ import fillMenuContent from "./menu-content.js";
 import fillAboutContent from "./about-content.js";
 import removeContent from "./remove-content.js";
 import './styles/main.css'
+
 import restaurant from './assets/restaurant.jpg'
+import bacon from './assets/bacon-spinach-bowl.jpg'
+import burger from './assets/burger-with-melted-cheese.jpg'
+import chef from './assets/chef.jpg'
+import chocolate from './assets/chocolate-cake.jpg'
+import pancakes from './assets/pancakes.jpg'
+import egg from './assets/egg-toast.jpg'
+import noodles from './assets/noodles.jpg'
+
 
 console.log(fillContent());
 
@@ -19,7 +28,8 @@ function restImgSrc() {
     restaurantImg.src = restaurant;
 }
 
-//find out why image won't load after switching tabs
+
+
 restImgSrc();
 
 homeButton.addEventListener('click', removeContent);

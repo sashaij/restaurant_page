@@ -10,7 +10,7 @@ function fillAboutContent () {
         <div class="cont-container">
             <div id="page-header">Our philosophy</div>
             <div class="info-field" id="description">
-                <img id="menu-one-img" alt="">
+                <img id="about-one-img" alt="">
                 <p>
                     Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text
                 </p>
@@ -26,7 +26,11 @@ function fillAboutContent () {
     `
     contentContainer.appendChild(aboutContent);
 
+    const topImg = document.getElementById('about-one-img');
+    topImg.src = chef;
+
     /* menuButton.addEventListener('click', removeContent); */
 }
 
+import chef from './assets/chef.jpg'
 export default fillAboutContent
