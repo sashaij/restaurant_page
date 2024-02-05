@@ -15,7 +15,9 @@ function fillContent () {
 
     headerEl.setAttribute('class', 'header');
     mainEl.setAttribute('class', 'main');
+    mainEl.setAttribute('id', 'home-main');
     contentContainer.setAttribute('class', 'cont-container');
+    contentContainer.setAttribute('id', 'home-container');
     pageHeader.setAttribute('id', 'page-header');
     restImg.setAttribute('id', 'rest-img');
     pageDescription.setAttribute('class', 'info-field');

@@ -5,11 +5,11 @@ function fillAboutContent () {
     aboutContent.setAttribute('id', 'menu-content');
     
     aboutContent.innerHTML = `
-    <div class="main">
+    <div class="main" id="about-main">
     <div class="header">About the restaurant</div>
-        <div class="cont-container">
+        <div class="cont-container" id='about-container'>
             <div id="page-header">Our philosophy</div>
-            <div class="info-field" id="description">
+            <div class="info-field about-plate" id="description">
                 <img id="about-one-img" alt="">
                 <p>
                     Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text

@@ -9,29 +9,31 @@ function fillMenuContent () {
     <div class="header">The best restaurant</div>
         <div class="cont-container">
             <div id="page-header">Our Menu</div>
-            <div class="info-field" id="description">
+            <div id='menu-plates'>
+            <div class="info-field menu-plate" id="description">
                 <img id="menu-one-img" class='menu-img' alt="">
-               Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text
+               <p>Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text</p>
             </div>
-            <div class="info-field" id="working-hours">
+            <div class="info-field menu-plate" id="working-hours">
                 <img id="menu-two-img" class='menu-img' alt="">
-             Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text
+             <p>Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text</p>
             </div>
-            <div class="info-field" id="address">
+            <div class="info-field menu-plate" id="address">
                 <img id="menu-three-img" class='menu-img' alt="">
-             Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text
+             <p>Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text</p>
             </div>
-            <div class="info-field" id="address">
+            <div class="info-field menu-plate" id="address">
                 <img id="menu-four-img" class='menu-img' alt="">
-             Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text
+             <p>Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text</p>
             </div>
-            <div class="info-field" id="address">
+            <div class="info-field menu-plate" id="address">
                 <img id="menu-five-img" class='menu-img' alt="">
-             Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text
+             <p>Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text</p>
             </div>
-            <div class="info-field" id="address">
+            <div class="info-field menu-plate" id="address">
                 <img id="menu-six-img" class='menu-img' alt="">
-             Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text
+             <p>Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text</p>
+            </div>
             </div>
         </div>
     `
